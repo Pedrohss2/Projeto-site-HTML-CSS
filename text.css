@@ -16,14 +16,22 @@ body{
     text-align: right;
     margin: 20px 30px 0 0 ;
 }
-.hero nav li{
+.hero nav .Link{
     display: inline-block;
     margin-left: 10px;
     list-style: none;
     letter-spacing: 2px;
     border: 2px solid #000;
 }
-.hero nav a{
+.hero-content p{    
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 15px;
+    border-bottom: 5px solid #fff;
+    
+}
+.Link a{
     color: #fff;
     display: block;
     font-size: 20px;
@@ -32,7 +40,8 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
-.hero nav a:hover{
+
+.hero nav .Link:hover{
     background-color: rgba(0,0,0, 0.5) ;
 }
 
@@ -51,23 +60,57 @@ main{
     margin: auto;
 }
 .content-section{
-    background-color: white;
-    padding: 15px;
+    background-color: #fff;
+    padding: 10px;
     margin-top: 15px;
+    margin-bottom: 20px;
+    overflow: auto;
 }
 
 .card{
-    width: 33%;
-    background-color: #ccc;
-    display: inline-block;
-    border: 2px solid #fff;
+    width: 32%;
+    float: left;
     box-sizing: border-box;
 }
-.card img{
+.card p{
+    background-color: rgba(0,0,0, 0.3);
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{  
+    display: block;
     width: 100%;
 }
+article{
+    background-color: #fff;
+}
 .car-header{
-    color: #000;
-    background-color: #ccc;
     border-bottom: 2px solid #000;
+}
+.car-header{
+    background-color: #fff;
+}
+
+.car-header, .titlo{
+    background-color: rgba(0,0,0, 0.1);
+    border-bottom: 2px solid rgba(0,0,0, 0.1);
+    margin-top: 5px;
+    padding: 10px;
+}
+.car-header p{
+    font-size: 20px
+}
+.Rodape{
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(0,0,0, 0.2);
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 2px 2px 2px #000;
 }
